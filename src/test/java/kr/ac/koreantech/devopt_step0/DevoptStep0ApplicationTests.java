@@ -13,7 +13,7 @@ class DevoptStep0ApplicationTests {
 	}
 
 	// 두 수를 더하는 함수(테스트 코드임)
-	@ㅆㄷㄴㅅ
+	@Test
 	int add(int a, int b) {
 		return a + b;
 
