@@ -24,10 +24,4 @@ class DevoptStep0ApplicationTests {
 		int result = add(10, 20);
 		assertEquals(30, result);
 	}
-
-	@Test // 그래들 빌드할 때 에러가 나면 동작을 멈춤
-	void addTest2() {
-		int result = add(10, 20);
-		assertEquals(10, result);
-	}
 }
